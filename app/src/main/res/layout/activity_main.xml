@@ -43,11 +43,20 @@
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="54dp"
         android:layout_gravity="end"
         android:layout_marginEnd="20dp"
+        android:contentDescription="@string/fab_icon"
         android:src="@drawable/pdffab"
-        android:contentDescription="@string/fab_icon" />
+        android:id="@+id/select_pdf_btn"/>
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:progress="49"
+        android:visibility="visible"/>
 
 
 
