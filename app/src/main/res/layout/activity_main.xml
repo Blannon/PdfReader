@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/pdficon"
+        android:layout_width="150dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/pdf_svg"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/No_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_file_selected_yet"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="56dp"
+        android:text="@string/upload_pdf_file"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:id="@+id/upload_btn"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:text="@string/show_all"
+        android:layout_marginTop="10dp"
+        android:id="@+id/show_all"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/pdffab"
+        android:contentDescription="@string/fab_icon" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "969450867698",
+    "project_id": "pdf-reader-5ae41",
+    "storage_bucket": "pdf-reader-5ae41.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969450867698:android:ab1ff7bca51293ef90396b",
+        "android_client_info": {
+          "package_name": "com.blannon_network.pdfreader"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASjJ2iyGQMo-qKiJPFsEG6rkrcA0ldy3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

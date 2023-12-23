@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PDFReader" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.PDFReader" parent="Base.Theme.PDFReader" />
+
+    <style name="Customtoast">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">#fff</item>
+        <item name="stTextSize">14sp</item>
+        <item name="stColorBackground">#490455</item>
+        <item name="stSolidBackground">true</item>
+        <item name="stStrokeColor">#fff</item>
+<!--        <item name="stIconStart">@drawable/ic</item>-->
+<!--        <item name="stIconEnd">@drawable/ic</item>-->
+        <item name="stLength">LONG</item> LONG or SHORT
+        <item name="stGravity">top</item> top or center
+        <item name="stRadius">5dp</item>
+    </style>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PDF Reader</string>
+    <string name="no_file_selected_yet">No file selected yet!</string>
+    <string name="upload_pdf_file">Upload Pdf file</string>
+    <string name="show_all">Show All</string>
+    <string name="fab_icon">fab icon</string>
+</resources>
